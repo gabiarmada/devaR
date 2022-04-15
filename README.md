@@ -5,9 +5,9 @@ R package - DEVA
 This package contains convenient functions used to process + clean EPA NEI Original data for analyses and spatial modeling.
 
 Install using `devtools`:
+
 ```
 devtools::install_github("gabiarmada/devaR")
-
 ```
 
 ## get EPA NEI original data 
