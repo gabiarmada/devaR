@@ -10,7 +10,7 @@ process_NEI(df)
 \item{df}{.csv file containing EPA NEI Original data.}
 }
 \value{
-A dataframe of cleaned NEI data
+A data frame of cleaned NEI data
 }
 \description{
 Process NEI data

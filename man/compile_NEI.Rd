@@ -10,7 +10,7 @@ compile_NEI(data_folder)
 \item{data_folder}{A local folder containing .csv files of EPA NEI Original data to process + compile.}
 }
 \value{
-A dataframe of compiled NEI data.
+A data frame of compiled NEI data.
 }
 \description{
 Compile NEI data
