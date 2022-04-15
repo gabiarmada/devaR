@@ -1,7 +1,7 @@
 #' Process NEI data
 #'
 #' @param df .csv file containing EPA NEI Original data.
-#' @return A data frame of cleaned NEI data
+#' @return A dataframe of cleaned NEI data
 #' @export
 #'
 process_NEI <- function(df){
@@ -28,7 +28,7 @@ process_NEI <- function(df){
 #' Compile NEI data
 #'
 #' @param data_folder  A local folder containing .csv files of EPA NEI Original data to process + compile.
-#' @return A data frame of compiled NEI data.
+#' @return A dataframe of compiled NEI data.
 #' @export
 #'
 compile_NEI <- function(data_folder){
