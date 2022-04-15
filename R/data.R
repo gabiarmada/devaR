@@ -1,0 +1,15 @@
+#' NEI compiled data
+#'
+#' Dataset of EPA National Emissions Inventory for Virginia counties from 2011 - 2017.
+#' Contains the county, pollutant, sector, emissions (tons), and year for almost 59,000 observations.
+#'
+#' @format A dataframe with 58710 rows and 5 variables:
+#' \describe{
+#'     \item{COUNTY}{Virginia county name, 134 counties of interest}
+#'     \item{POLLUTANT}{Type of pollutant}
+#'     \item{SECTOR}{Major source sectors used to categorize pollutants.}
+#'     \item{EMISSIONS(TONS)}{Pollutant emissions, measured in tons}
+#'     \item{YEAR}{Year of data collection.}
+#'}
+#'@source \url{https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei}
+"NEI_compiled"
