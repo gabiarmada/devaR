@@ -1,0 +1,23 @@
+Package: devaR
+Title: DEVA package. 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Gabriella", "Armada", , "armada.gabriella@gmail.com", role = c("aut", "cre"))
+Description: Convenient functions to process + clean EPA NEI data for analyses and spatial modeling. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    data.table,
+    dplyr,
+    fs,
+    ggh4x,
+    ggplot2,
+    here,
+    sf,
+    stringi,
+    stringr,
+    USAboundaries,
+    writexl
