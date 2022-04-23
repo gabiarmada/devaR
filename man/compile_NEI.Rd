@@ -7,7 +7,7 @@
 compile_NEI(data_folder)
 }
 \arguments{
-\item{data_folder}{A local folder containing .csv files of EPA NEI Original data to process + compile.}
+\item{data_folder}{File path to a local folder containing .csv files of EPA NEI Original data to process + compile.}
 }
 \value{
 A dataframe of compiled NEI data.

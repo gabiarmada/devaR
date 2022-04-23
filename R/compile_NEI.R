@@ -27,7 +27,7 @@ process_NEI <- function(df){
 
 #' Compile NEI data
 #'
-#' @param data_folder  A local folder containing .csv files of EPA NEI Original data to process + compile.
+#' @param data_folder  File path to a local folder containing .csv files of EPA NEI Original data to process + compile.
 #' @return A dataframe of compiled NEI data.
 #' @export
 #'
@@ -36,7 +36,7 @@ compile_NEI <- function(data_folder){
   colnames(NEI_compiled) <- c("COUNTY", "POLLUTANT", "SECTOR", "EMISSIONS (TONS)", "YEAR")
 
   # get file paths of all EPA NEI Original Data files
-  file_paths <- fs::dir_ls(here(data_folder))
+  file_paths <- fs::dir_ls(data_folder)
 
   # iterate file paths through process_NEI()
   for (i in seq_along(file_paths)){
